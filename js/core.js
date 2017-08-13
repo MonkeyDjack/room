@@ -12,7 +12,6 @@ $(document).ready(function(){
     });
 
   $('.slider').slick({
-  arrows: false,
   dots: false,
   fade: true,
   infinite: true,

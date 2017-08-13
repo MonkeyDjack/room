@@ -56,12 +56,29 @@
 
 .slider
 	width: 660px
+	position: relative
 	+mdb
 		margin: 30px auto 0 auto
 	+phone
 		width: 440px
 	+minitablet
 		width: 300px
+
+.slick-arrow
+	position: absolute
+	top: 0
+	width: 50%
+	height: 100%
+	font-size: 0
+	background: transparent
+	border: 0
+
+.slick-prev
+	left: 0
+	z-index: 120
+
+.slick-next
+	right: 0
 
 	.slide
 		img
