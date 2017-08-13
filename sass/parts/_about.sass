@@ -1,0 +1,51 @@
+.about-block
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	margin-top: 50px
+	margin-bottom: 95px
+	h3
+		font-family: 'Museo Sans Cyrl 900', arial
+		font-size: 26px
+		margin: 0
+		padding-bottom: 47px
+		text-transform: uppercase
+	.about-us
+		color: #fff
+		width: 590px
+		padding-top: 115px
+		padding-left: 80px
+		padding-right: 81px
+		margin: 20px auto
+		padding-bottom: 145px
+		background: url("../img/blue-bg-squad.png") 0 0 no-repeat
+		+md
+			background: #346cfc
+			border-radius: 40px
+		+phone
+			width: 440px
+		p
+			margin-top: 0
+			margin-bottom: 18px
+	.our-clients
+		padding-top: 115px
+		margin: 20px auto
+		+md
+			padding-top: 0
+		h3
+			text-align: left
+			padding-bottom: 38px
+
+.client-list
+	width: 410px
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	a
+		display: inline-block
+		width: 152px
+		height: 67px
+		img
+			vertical-align: center
+	a:nth-child(odd)
+		padding-top: 10px
