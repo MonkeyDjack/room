@@ -1,0 +1,58 @@
+.feedback-blog
+	background: #f9f9f9
+	padding-top: 103px
+	padding-bottom: 71px
+	+phone
+		padding-top: 50px
+		padding-bottom: 30px
+	h3
+		font-family: 'Museo Sans Cyrl 900', arial
+		font-size: 26px
+		margin: 0
+		color: #000
+		text-align: center
+		letter-spacing: 3px
+		padding-bottom: 51px
+		text-transform: uppercase
+
+.feedback-flex
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	.comment
+		display: inline-block
+		position: relative
+		margin: 0 auto 30px
+		width: 370px
+		+minitablet
+			width: 320px
+		+phone
+			text-align: center
+		img
+			vertical-align: bottom
+			width: 100%
+		.tag
+			text-align: right
+			position: absolute
+			top: 414px
+			right: 0px
+			background: $blue-bg
+			padding-right: 16px
+			padding-left: 40px
+			padding-top: 13px
+			padding-bottom: 8px
+			+minitablet
+				top: 335px
+			.name
+				color: #fff
+				font-size: 18px
+				margin: 0
+			a
+				font-size: 18px
+				color: #fff
+			a:hover
+				text-decoration: none
+		p
+			color: #161616
+			margin-top: 29px
+			line-height: 24px

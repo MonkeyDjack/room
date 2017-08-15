@@ -1,0 +1,91 @@
+.first-form-block
+	padding-top: 142px
+	position: relative
+	
+.form-wrapper
+	position: relative
+	border: 10px solid #f5d032
+	width: 998px
+	float: right
+	margin-right: 70px
+	padding: 100px 0 74px 80px
+	+md
+		width: 95%
+		margin: 0 auto
+		padding-left: 30px
+		float: none
+	.thin_txt
+		font-size: 22px
+		font-family: 'Museo Sans Cyrl 500'
+		margin: 0
+		text-transform: uppercase
+		+phone
+			font-size: 18px
+	.bold_txt
+		font-size: 36px
+		text-transform: uppercase
+		font-family: 'Museo Sans Cyrl 900'
+		margin: 0
+		+phone
+			font-size: 22px
+
+.form-txt
+	position: absolute
+	top: -43px
+	left: -111px
+	letter-spacing: 2px
+	+md
+		width: 450px
+		left: 50%
+		margin-left: -225px
+	+phone
+		width: 290px
+		margin-left: -145px
+
+
+.form-wrapper
+	input
+		width: 174px
+		margin-right: 107px
+		font-size: 18px
+		margin-top: 16px
+		font-family: 'Museo Sans Cyrl 500'
+		line-height: 20px
+		height: 30px
+		border: none
+		border-bottom: 3px solid #e8e8e8
+		+md
+			width: 90%
+			margin-right: 0
+	input:focus
+		border-bottom: 3px solid $blue-bg
+
+button.form_btn
+	border: 0
+	font-size: 18px
+	color: #fff
+	font-family: 'Museo Sans Cyrl 700'
+	float: right
+	padding-top: 15px
+	padding-bottom: 17px
+	margin-right: 55px
+	padding-right: 22px
+	padding-left: 26px
+	background: -webkit-linear-gradient(90deg, rgb(49, 127, 255), rgb(57, 70, 245))
+	background: -webkit-linear-gradient(left, rgb(49, 127, 255), rgb(57, 70, 245))
+	background: -o-linear-gradient(left, rgb(49, 127, 255), rgb(57, 70, 245))
+	background: linear-gradient(to right, rgb(49, 127, 255), rgb(57, 70, 245))
+	+md
+		margin: 40px auto 0
+		width: 90%
+		float: none
+
+button.form_btn:hover
+	-webkit-transition: all 0.6s ease
+	-moz-transition: all 0.6s ease
+	-o-transition: all 0.6s ease
+	transition: all 0.6s ease
+	background: -webkit-linear-gradient(90deg, rgb(43, 58, 255), rgb(98, 157, 253))
+	background: linear-gradient(90deg, rgb(43, 58, 255), rgb(98, 157, 253))
+
+

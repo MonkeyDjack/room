@@ -1,0 +1,106 @@
+.white-squad-bg
+	background: $blue_bg url(../img/white-squad-bg.png) -31px -30px no-repeat
+	+mdb
+		background: #fff
+
+header
+	padding-top: 31px
+
+.logo
+	float: left
+	margin-top: 12px
+	+mdb
+		margin-left: 20px
+
+
+ul.menu
+	display: inline-block
+	padding: 0
+	margin: 17px 0 0 137px
+	list-style: none
+	+mdb
+		display: none
+		margin: 0
+		z-index: 100
+		background: #fff
+		width: 180px
+		height: auto
+		position: absolute
+		right: 0
+		top: 132px
+		text-align: center
+		padding: 10px 15px
+	li
+		font-family: 'MuseoSansCyrl-300'
+		display: inline-block
+		margin-right: 60px
+		+mdb
+			display: block
+			padding: 5px 24px
+			margin: 0
+		a
+			color: #101010
+			text-decoration: none
+			font-size: 16px
+		a:hover
+			text-decoration: underline
+
+.number
+	z-index: 20
+	float: right
+	color: #fff
+	+mdb
+		color: #101010
+	p
+		margin: 0 0 7px 0
+		font-family: 'MuseoSansCyrl-300'
+		font-size: 22px
+		line-height: 27px
+		+mdb
+			margin-right: 40px
+		+minitablet
+			margin-right: 10px
+			font-size: 16px
+			line-height: 16px
+			margin-right: 0
+	span
+		+minitablet
+			font-size: 12px
+
+
+.menu-btn
+	margin-right: 40px
+	width: 40px
+	height: 40px
+	float: right
+	background: transparent
+	position: relative
+	cursor: pointer
+	display: none
+	+mdb
+		display: block
+
+.menu-btn
+	span
+		&::after
+			bottom: -5px
+		&::before
+			top: -5px
+
+.menu-btn
+	span
+		width: 20px
+		height: 2px
+		background: #101
+		position: absolute
+		top: 50%
+		left: 50%
+		margin: -1px 0 0 -9px
+
+.menu-btn span::before,.menu-btn span::after
+	content: ""
+	width: 20px
+	height: 2px
+	background: #101
+	position: absolute
+	left: 0
